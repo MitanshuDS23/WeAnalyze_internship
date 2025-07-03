@@ -10,7 +10,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGO_URI = "mongodb://localhost:27017/xyz";
+const MONGO_URI =
+  "mongodb+srv://nvedant382:MLPqazNKOwsx@cluster0.ssamt.mongodb.net/wanderlust?retryWrites=true&w=majority&appName=Cluster0";
 const PORT = 5000;
 
 mongoose
